@@ -16,7 +16,7 @@ git init
 git status
 ```
 
-####  
+####  Adiciona os arquivos para area temporaria "stage"
 ```shell
 git add <nome-arquivo.extensao>
 git add readme.md
@@ -27,7 +27,7 @@ git add *.md
 git add . 
 ```
 
-####  
+####  Adiciona os arquivos 
 ```shell
 git commit -m "sua mensagem"
 ```
