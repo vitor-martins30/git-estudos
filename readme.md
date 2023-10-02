@@ -27,9 +27,23 @@ git add *.md
 git add . 
 ```
 
-####  Adiciona os arquivos 
+####  Registra uma foto das mudanças em stage 
 ```shell
 git commit -m "sua mensagem"
 ```
+
+####  Configura quem e o autor dos commits
+```shell
 git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+git config --global user.name "Your Name"
+```
+
+####  Lista de todos os coomits registrados
+```shell
+git log
+```
+
+####  Vai para a mudança conforme o hash informado
+```shell
+git checkout <hash-commit>
+```
